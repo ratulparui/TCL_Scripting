@@ -29,3 +29,48 @@ ______________________________________________
     - [TCL_D2_SK2 L4 - DEMO for computing row numbers](#sub-subsection-224)
   
    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a name="section-1"></a>
+## Day 1: Introduction to TCL and VSDSYNTH Toolbox Usage
+<a name="subsection-11"></a>
+### TCL_D1_SK1 - Introduction
+<a name="sub-subsection-111"></a>
+#### TCL_D1_SK1 L0 - Introduction to TCL task
+
+- We have taken an example of an audrino board. 
+   - We can see the IC inside that audrino board.
