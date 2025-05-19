@@ -53,7 +53,15 @@ Next task is to convert all the inputs to a format that is format[1] and .sdc fo
 ![format1](https://github.com/user-attachments/assets/20e8eb61-911b-4a0d-ac99-7a3f007f5c6b)
 ![sdc](https://github.com/user-attachments/assets/65fe8b30-f61b-4ae5-bcf8-c68fd49d466b)
 Next task is to convert the format[1] and .sdc to format[2] and pass it to timing tool OpenTimer tool.
-OpenTimer accepts following type of ijnput format:
+OpenTimer accepts following type of input format:
+
 ![input2OT](https://github.com/user-attachments/assets/7715eed1-6af0-448e-a60e-3eeabb570aab)
+Final task is to generate the output which looks like below
+![op1](https://github.com/user-attachments/assets/309538ce-dc19-4687-a8f3-f87f02c10de1)
 
 
+<a name="subsection-12"></a>
+### TCL_D1_SK2 - Sub-Task One: VSDSYNTH Toolbox usage scenarios
+<a name="sub-subsection-121"></a>
+#### TCL_D1_SK2 L1 - Scenario 1 - User doesn't provide an input CSV file
+#### TCL_D1_SK2 L2 - Scenarios 2 & 3 - User providing incorrect CSV or typing "-help"
