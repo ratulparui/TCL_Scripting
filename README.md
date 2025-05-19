@@ -64,5 +64,12 @@ Final task is to generate the output which looks like below
 ### TCL_D1_SK2 - Sub-Task One: VSDSYNTH Toolbox usage scenarios
 <a name="sub-subsection-121"></a>
 #### TCL_D1_SK2 L1 - Scenario 1 - User doesn't provide an input CSV file
+We can discuss some scenarios based on the inputs given by the user.
+Case -1: User has not provided .csv file as an input.
+Case -2: User has provided a .csv file, which does not exist.
+Case -3: User wants to get more knowledge regarding the command using -help switch.
+In the below snippet, to access an argument we use $argv and $#argv represents the number of arguments that are passed. So, if the number of arguments is not equal to 1, then it will print the following message.
+![arg1](https://github.com/user-attachments/assets/df441f7f-0cce-41f8-b561-20dd9fc7d000)
+
 <a name="sub-subsection-122"></a>
 #### TCL_D1_SK2 L2 - Scenarios 2 & 3 - User providing incorrect CSV or typing "-help"
