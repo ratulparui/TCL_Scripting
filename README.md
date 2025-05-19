@@ -44,6 +44,10 @@ The excel sheet consists of top designn name, output path directory, source code
 The user interface we are trying to build, will take the .csv(excel) file as the input and it will produce all the necessary results as shown below.
 ![agenda](https://github.com/user-attachments/assets/ad11a914-6e13-4b6e-8e85-0e4c3c4a5cff)
 
+#### TCL_D1_SK1 L1 - Introduction to sub-task
+
+Create command and pass .csv from Unix shell to TCL script. If we check the path of the input .csv file below
+![pathtocsv](https://github.com/user-attachments/assets/a2943a53-3d9a-4ec9-ae3a-21b12b907ecc)
 
 
 
