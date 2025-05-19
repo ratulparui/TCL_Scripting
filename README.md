@@ -69,7 +69,12 @@ Case -1: User has not provided .csv file as an input.
 Case -2: User has provided a .csv file, which does not exist.
 Case -3: User wants to get more knowledge regarding the command using -help switch.
 In the below snippet, to access an argument we use $argv and $#argv represents the number of arguments that are passed. So, if the number of arguments is not equal to 1, then it will print the following message.
+
 ![arg1](https://github.com/user-attachments/assets/df441f7f-0cce-41f8-b561-20dd9fc7d000)
+
+When there is no input .csv file, the value of $#argv is equal to zero, from the below script we can check
+
+![snippet](https://github.com/user-attachments/assets/aa55fd2d-4c7b-498f-a5ab-252da6f5746f)
 
 <a name="sub-subsection-122"></a>
 #### TCL_D1_SK2 L2 - Scenarios 2 & 3 - User providing incorrect CSV or typing "-help"
