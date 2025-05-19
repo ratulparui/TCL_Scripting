@@ -48,6 +48,8 @@ The user interface we are trying to build, will take the .csv(excel) file as the
 
 Create command and pass .csv from Unix shell to TCL script. If we check the path of the input .csv file below
 ![pathtocsv](https://github.com/user-attachments/assets/a2943a53-3d9a-4ec9-ae3a-21b12b907ecc)
-
+Now we are trying to create a command named as vsdsynth that will take .csv file as an input and passes it to the tclbox.
+Next task is to convert all the inputs to a format that is format[1] and .sdc format and pass it to the synthesis tool 'Yosys'.
+![format1](https://github.com/user-attachments/assets/20e8eb61-911b-4a0d-ac99-7a3f007f5c6b)
 
 
