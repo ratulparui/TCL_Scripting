@@ -38,6 +38,9 @@ _______________________________________________________________________
 ### TCL_D1_SK1 - Introduction
 <a name="sub-subsection-111"></a>
 #### TCL_D1_SK1 L0 - Introduction to TCL task
+We are trying to build a task to build a user interface which will take exel sheet as an input and a data sheet as output
+![sample input exel sheet](https://github.com/user-attachments/assets/009d81c8-12f0-4682-92e6-bd1b5e0a864b)
+
 
 
 
