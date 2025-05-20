@@ -136,9 +136,15 @@ Whenever we are passing any arguments to the vsdsynth.tcl will be considered as 
 
 ![10](https://github.com/user-attachments/assets/4f4c8572-7057-4c88-a4a8-a89cf009fb9e)
 
+Now, our goal is to auto create the variables.
+
+Now, from the input.csv file, we are trying to read the variables in a matrix format, which then we would like to convert as array. 
+![flow1](https://github.com/user-attachments/assets/2c4d51ad-03d0-4a52-adfb-0ace4bcf7199)
+
 
 <a name="sub-subsection-213"></a>
 #### TCL_D2_SK1 L3 - Initialize variables for auto-creation variables task
+So we have created a shell script named as vsdsynth and using the shell script we are trying to invoke the tcl script.
 <a name="sub-subsection-214"></a>
 #### TCL_D2_SK1 L4 - Auto creation of the first variable - DesignName
 <a name="sub-subsection-215"></a>
