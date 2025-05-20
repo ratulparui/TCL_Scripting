@@ -82,7 +82,8 @@ Now, if we give the below command in the termianl
 
                      ./vsdsynth
 It will give the following output
-![nocsv](https://github.com/user-attachments/assets/9cbb2658-3c4f-4dd2-b00a-25031065c88e)
+
+![nocsv](https://github.com/user-attachments/assets/5e1615dc-4c3a-46d8-b9db-3e9fbdd31676)
 
 <a name="sub-subsection-122"></a>
 #### TCL_D1_SK2 L2 - Scenarios 2 & 3 - User providing incorrect CSV or typing "-help"
