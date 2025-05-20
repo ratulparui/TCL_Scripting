@@ -75,6 +75,11 @@ In the below snippet, to access an argument we use $argv and $#argv represents t
 When there is no input .csv file, the value of $#argv is equal to zero, from the below script we can check
 
 ![snippet](https://github.com/user-attachments/assets/aa55fd2d-4c7b-498f-a5ab-252da6f5746f)
+Now, if we give the below command in the termianl
+
+                     ./vsdsynth
+It will give the following output
+![nocsv](https://github.com/user-attachments/assets/9cbb2658-3c4f-4dd2-b00a-25031065c88e)
 
 <a name="sub-subsection-122"></a>
 #### TCL_D1_SK2 L2 - Scenarios 2 & 3 - User providing incorrect CSV or typing "-help"
