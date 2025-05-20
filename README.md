@@ -116,6 +116,14 @@ After that we will be creating main synthesis script in format[2]
 Then pass this to Yosys tool.
 <a name="sub-subsection-212"></a>
 #### TCL_D2_SK1 L2 - Auto-Create variables using matrix and arrays
+We are trying to pass the input.csv file to the vsdsynth tclbox using the following command
+         
+          ./vsdsynth openMSP430_design_details.csv 
+
+
+
+          tclsh vsdsynth.tcl $argv[1]
+This is how we pass the .csv file to the tcl script 
 <a name="sub-subsection-213"></a>
 #### TCL_D2_SK1 L3 - Initialize variables for auto-creation variables task
 <a name="sub-subsection-214"></a>
