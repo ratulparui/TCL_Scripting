@@ -120,7 +120,7 @@ We are trying to pass the input.csv file to the vsdsynth tclbox using the follow
          
           ./vsdsynth openMSP430_design_details.csv 
 
-
+Now inside vsdsynth we have to modify like below
 
           tclsh vsdsynth.tcl $argv[1]
 This is how we pass the .csv file to the tcl script 
