@@ -103,4 +103,19 @@ It will give the following output
 
 ![helpo](https://github.com/user-attachments/assets/d023d0be-a2e5-44bd-9cd3-649471e361e5)
 
-
+<a name="section-2"></a>
+## Day 2: Variable Creation and Processing Constraints from CSV
+<a name="subsection-21"></a>
+### TCL_D2_SK1 - Sub-Task Two - From CSV to format \[1\] and SDC - Variable Creation
+<a name="sub-subsection-211"></a>
+#### TCL_D2_SK1 L1 - Various tasks involved in format conversion]
+<a name="sub-subsection-212"></a>
+#### TCL_D2_SK1 L2 - Auto-Create variables using matrix and arrays
+<a name="sub-subsection-213"></a>
+#### TCL_D2_SK1 L3 - Initialize variables for auto-creation variables task
+<a name="sub-subsection-214"></a>
+#### TCL_D2_SK1 L4 - Auto creation of the first variable - DesignName
+<a name="sub-subsection-215"></a>
+#### TCL_D2_SK1 L5 - Auto creation of variables complete
+<a name="sub-subsection-216"></a>
+#### TCL_D2_SK1 L6 - Variable Creation DEMO using TCL
