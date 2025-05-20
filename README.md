@@ -81,7 +81,8 @@ When there is no input .csv file, the value of $#argv is equal to zero, from the
 Let's discuss case -2, for user has provided an incorrect .csv file. We can write the following  part of the code.
 
 ![miss1](https://github.com/user-attachments/assets/7daffd4a-ecc7-4d4a-aa11-027ee666ca7e)
+
 Now, for case -3, where the user wants to get more knowledge regarding the command using -help switch. We can modify the code as below:
 
-![else1](https://github.com/user-attachments/assets/2f62bace-a322-4c7f-ba28-58aa6ea3afc0)
+![else1](https://github.com/user-attachments/assets/fe61f343-58b6-48cb-8520-aa95217deec2)
 
