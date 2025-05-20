@@ -126,7 +126,16 @@ We are trying to pass the input.csv file to the vsdsynth tclbox using the follow
 Now inside vsdsynth we have to modify like below
 
           tclsh vsdsynth.tcl $argv[1]
-This is how we pass the .csv file to the tcl script 
+
+This is how we pass the .csv file to the tcl script.
+Whenever we are passing any arguments to the vsdsynth.tcl will be considered as $argv, which can have index 0,1,2 etc. We can do it using lindex command
+         
+        set filename [lindex $argv 0]
+
+
+![10](https://github.com/user-attachments/assets/4f4c8572-7057-4c88-a4a8-a89cf009fb9e)
+
+
 <a name="sub-subsection-213"></a>
 #### TCL_D2_SK1 L3 - Initialize variables for auto-creation variables task
 <a name="sub-subsection-214"></a>
