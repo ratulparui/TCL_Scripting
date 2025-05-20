@@ -139,7 +139,8 @@ Whenever we are passing any arguments to the vsdsynth.tcl will be considered as 
 Now, our goal is to auto create the variables.
 
 Now, from the input.csv file, we are trying to read the variables in a matrix format, which then we would like to convert as array. 
-![flow1](https://github.com/user-attachments/assets/2c4d51ad-03d0-4a52-adfb-0ace4bcf7199)
+
+  ![flow1](https://github.com/user-attachments/assets/2c4d51ad-03d0-4a52-adfb-0ace4bcf7199)
 
 
 <a name="sub-subsection-213"></a>
