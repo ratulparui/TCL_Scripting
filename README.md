@@ -145,13 +145,12 @@ Now, from the input.csv file, we are trying to read the variables in a matrix fo
 
 <a name="sub-subsection-213"></a>
 #### TCL_D2_SK1 L3 - Initialize variables for auto-creation variables task
-So we have created a shell script named as vsdsynth and using the shell script we are trying to invoke the tcl script. Now, we need to check how to access the .csv file through the tcl script
+So we have created a shell script named as vsdsynth and using the shell script we are trying to invoke the tcl script. Now, we need to check how to access the .csv file through the tcl script. Now we require some packages to extract the .csv file, we can start using the below commands. We are trying to create a matrix using struct::matrix m command.
 
         set filename [lindex $argv 0]
         package require csv
         package require struct::matrix
         struct::matrix m
-        set f [open $filename]
         set f [open $filename]
 	csv::read2matrix $f m , auto
 	close $f
@@ -159,6 +158,7 @@ So we have created a shell script named as vsdsynth and using the shell script w
 	m add columns $columns
 	m link my_arr
 	set num_of_rows [m rows]
+ We can open any file using the open command, but prior to that it has to be set as a variable or file id.
 <a name="sub-subsection-214"></a>
 #### TCL_D2_SK1 L4 - Auto creation of the first variable - DesignName
 <a name="sub-subsection-215"></a>
