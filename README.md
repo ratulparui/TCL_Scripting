@@ -87,7 +87,20 @@ Let's discuss case -2, for user has provided an incorrect .csv file. We can writ
 
 ![miss1](https://github.com/user-attachments/assets/7daffd4a-ecc7-4d4a-aa11-027ee666ca7e)
 
+Now, if we give ./vsdsynth command, we get the following output
+
+![wcsv](https://github.com/user-attachments/assets/aca59f70-7d07-4bf0-8ceb-d18f49888baa)
+
+
 Now, for case -3, where the user wants to get more knowledge regarding the command using -help switch. We can modify the code as below:
 
 ![else1](https://github.com/user-attachments/assets/fe61f343-58b6-48cb-8520-aa95217deec2)
+
+Now, if we give the following command
+                 
+                 ./vsdsynth -help
+It will give the following output
+
+![helpo](https://github.com/user-attachments/assets/d023d0be-a2e5-44bd-9cd3-649471e361e5)
+
 
