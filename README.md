@@ -38,7 +38,8 @@ _______________________________________________________________________
 ### TCL_D1_SK1 - Introduction
 <a name="sub-subsection-111"></a>
 #### TCL_D1_SK1 L0 - Introduction to TCL task
-We are trying to build a task to build a user interface which will take excel sheet as an input and a data sheet as output
+We are trying to build a task to build a user interface which will take excel sheet as an input and a data sheet as output.
+We are using .csv format as excel file format, where csv stands for comma seperated value.
 
   ![sampleip](https://github.com/user-attachments/assets/8555fb79-ff05-46ea-9461-9c8b07e4cbe4)
 
@@ -158,7 +159,15 @@ So we have created a shell script named as vsdsynth and using the shell script w
 	m add columns $columns
 	m link my_arr
 	set num_of_rows [m rows]
- We can open any file using the open command, but prior to that it has to be set as a variable or file id.
+ We can open any file using the open command, but prior to that it has to be set as a variable or file id given as f. Now, f can be used as a file opend in read mode.
+
+![ipcsv2](https://github.com/user-attachments/assets/647644fa-d8ce-4541-84fc-3a8c1591ef15)
+
+ 
+ Now, if we try to open the csv file using vim, we can see that it is nothing but a comma seperated value file.
+ 
+ ![vcsv1](https://github.com/user-attachments/assets/87b9ccc9-0d8c-40b9-a518-923324721bb7)
+
 <a name="sub-subsection-214"></a>
 #### TCL_D2_SK1 L4 - Auto creation of the first variable - DesignName
 <a name="sub-subsection-215"></a>
