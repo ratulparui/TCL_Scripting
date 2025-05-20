@@ -39,7 +39,10 @@ _______________________________________________________________________
 <a name="sub-subsection-111"></a>
 #### TCL_D1_SK1 L0 - Introduction to TCL task
 We are trying to build a task to build a user interface which will take excel sheet as an input and a data sheet as output
-![sample input exel sheet](https://github.com/user-attachments/assets/009d81c8-12f0-4682-92e6-bd1b5e0a864b)
+
+![sampleip](https://github.com/user-attachments/assets/8555fb79-ff05-46ea-9461-9c8b07e4cbe4)
+
+
 The excel sheet consists of top designn name, output path directory, source code or rtl, path of .lib file, path of constraints.
 The user interface we are trying to build, will take the .csv(excel) file as the input and it will produce all the necessary results as shown below.
 ![agenda](https://github.com/user-attachments/assets/ad11a914-6e13-4b6e-8e85-0e4c3c4a5cff)
