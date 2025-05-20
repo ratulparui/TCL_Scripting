@@ -109,6 +109,11 @@ It will give the following output
 ### TCL_D2_SK1 - Sub-Task Two - From CSV to format \[1\] and SDC - Variable Creation
 <a name="sub-subsection-211"></a>
 #### TCL_D2_SK1 L1 - Various tasks involved in format conversion]
+Now, we are trying to convert all the inputs into format[1] and .sdc format, we would like to pass these files to 'Yosys' tool.
+For this we need to start create variables. And we have to check whether the files or the paths mentioned in .csv file exists or not. We need to convert the constraints from the .csv file to .sdc format.
+Then we will be reading all the netlist files.
+After that we will be creating main synthesis script in format[2]
+Then pass this to Yosys tool.
 <a name="sub-subsection-212"></a>
 #### TCL_D2_SK1 L2 - Auto-Create variables using matrix and arrays
 <a name="sub-subsection-213"></a>
