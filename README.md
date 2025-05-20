@@ -78,3 +78,6 @@ When there is no input .csv file, the value of $#argv is equal to zero, from the
 
 <a name="sub-subsection-122"></a>
 #### TCL_D1_SK2 L2 - Scenarios 2 & 3 - User providing incorrect CSV or typing "-help"
+Let's discuss case -2, for user has provided an incorrect .csv file. We can write the following  part of the code.
+![miss1](https://github.com/user-attachments/assets/7daffd4a-ecc7-4d4a-aa11-027ee666ca7e)
+
