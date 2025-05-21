@@ -176,7 +176,9 @@ Now, we have to loop throug the entire array.
 ![loop1](https://github.com/user-attachments/assets/58c5fcce-d839-41ea-a6d1-377a9645a124)
 
 Now, we can see the algorithm below
-![algo1](https://github.com/user-attachments/assets/a45f0779-b940-4237-8b8c-0a4f39b7ec59)
+
+![algo1](https://github.com/user-attachments/assets/2ffefc53-4cfc-4d07-be05-ad8d0c264869)
+
 
 <a name="sub-subsection-215"></a>
 #### TCL_D2_SK1 L5 - Auto creation of variables complete
