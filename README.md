@@ -183,7 +183,15 @@ Now, we can build the logicg as below,
 
                  if{$i==0}
 		 set [strig map {" " " "} $my_arr(o,i)] $my_arr(1,i) 
+   Let's discuss the operation of the string map command.
 
+                             string map {_parui _vsd} ratul_parui
+
+
+                             Before string map: ratul_parui
+			     After string map:  ratul_vsd
+			     
+So, we have replaced _parui by _vsd using string map command.
 <a name="sub-subsection-215"></a>
 #### TCL_D2_SK1 L5 - Auto creation of variables complete
 <a name="sub-subsection-216"></a>
