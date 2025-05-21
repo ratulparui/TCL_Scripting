@@ -214,7 +214,9 @@ Here, $my_arr(1,i) is an file path. Let us discuss what the normalize command do
 <a name="sub-subsection-216"></a>
 #### TCL_D2_SK1 L6 - Variable Creation DEMO using TCL
 Now, we have written the vsdflow.tcl file that we have passed through the vsdsynth tclbox using shell script.
-![code14](https://github.com/user-attachments/assets/1a43bae4-35e0-4764-bc01-4a4c62e69b2d)
+
+![code11](https://github.com/user-attachments/assets/6c1b836c-b26f-48f7-9bf0-86d4816ec4fc)
+
 
 
 Now, if we try to run the below command
@@ -222,7 +224,8 @@ Now, if we try to run the below command
       ./vsdsynth openMSP430_design_details.csv
 We can see the following output
 
-![opg1](https://github.com/user-attachments/assets/d9fd04db-e8e3-4de1-9527-6a53e92a7920)
+![op15](https://github.com/user-attachments/assets/1a219850-21ea-4bda-8692-f1ebec3a48fd)
+
 
 we have our desired output for the given input.csv file
 
