@@ -213,3 +213,5 @@ Here, $my_arr(1,i) is an file path. Let us discuss what the normalize command do
   After the execution of the while loop, we get all the file paths assigned to the respective variables.
 <a name="sub-subsection-216"></a>
 #### TCL_D2_SK1 L6 - Variable Creation DEMO using TCL
+Now, we have written the vsdflow.tcl file that we have passed through the vsdsynth tclbox using shell script.
+![code11](https://github.com/user-attachments/assets/3365d611-ae78-4c52-9ba0-23d464d76f76)
