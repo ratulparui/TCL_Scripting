@@ -168,8 +168,13 @@ So we have created a shell script named as vsdsynth and using the shell script w
  
  ![vcsv1](https://github.com/user-attachments/assets/87b9ccc9-0d8c-40b9-a518-923324721bb7)
 
+ Then, we are trying to convet the matrix m to an array my_arr using link command.
+
 <a name="sub-subsection-214"></a>
 #### TCL_D2_SK1 L4 - Auto creation of the first variable - DesignName
+Now, we have to loop throug the entire array.
+![loop1](https://github.com/user-attachments/assets/58c5fcce-d839-41ea-a6d1-377a9645a124)
+
 <a name="sub-subsection-215"></a>
 #### TCL_D2_SK1 L5 - Auto creation of variables complete
 <a name="sub-subsection-216"></a>
