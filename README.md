@@ -198,7 +198,13 @@ Now, let's procced with the code
 
 ![code12](https://github.com/user-attachments/assets/28d99ee8-e5d7-46ec-8b91-38341917f061)
 
+Now, let us analyze the below command
 
+	        [file normalize $my_arr(1,i)]
+Here, $my_arr(1,i) is an file path. Let us discuss what the normalize command do:
 
+                Before file normalize = ~/Desktop/Vsdflow
+		After file normalize = home/VsdUser/Desktop/Vsdflow
+  So, the file normalize command expands the reference path to a absolute path
 <a name="sub-subsection-216"></a>
 #### TCL_D2_SK1 L6 - Variable Creation DEMO using TCL
