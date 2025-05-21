@@ -228,10 +228,16 @@ We can see the following output
 
 
 we have our desired output for the given input.csv file
+
+Now we have to chek all the directory paths exist or not.
 <a name="subsection-22"></a>
 ### TCL_D2_SK2 - Sub-Task Two - From CSV to format\[1\] and SDC - Processing constraints, CSV
 <a name="sub-subsection-221"></a>
 #### TCL_D2_SK2 L1 - Checking the existence of files and folders mentioned in design_details.csv
+Now to check whether the output directory exists or not, we can give the following set of commands.
+![ex1](https://github.com/user-attachments/assets/ae8f8c6f-c3b6-4a01-9634-195436584878)
+
+
 <a name="sub-subsection-222"></a>
 #### TCL_D2_SK2 L2 - Convert constraints.csv file to a matrix object
 <a name="sub-subsection-223"></a>
