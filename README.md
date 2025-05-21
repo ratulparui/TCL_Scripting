@@ -196,7 +196,7 @@ So, we have replaced _parui by _vsd using string map command.
 #### TCL_D2_SK1 L5 - Auto creation of variables complete
 Now, let's procced with the code
 
-![code11](https://github.com/user-attachments/assets/3365d611-ae78-4c52-9ba0-23d464d76f76)
+![code14](https://github.com/user-attachments/assets/1a43bae4-35e0-4764-bc01-4a4c62e69b2d)
 
 Now, we can see for i=0,1,2,3 respectively
 
@@ -214,4 +214,11 @@ Here, $my_arr(1,i) is an file path. Let us discuss what the normalize command do
 <a name="sub-subsection-216"></a>
 #### TCL_D2_SK1 L6 - Variable Creation DEMO using TCL
 Now, we have written the vsdflow.tcl file that we have passed through the vsdsynth tclbox using shell script.
-![code11](https://github.com/user-attachments/assets/3365d611-ae78-4c52-9ba0-23d464d76f76)
+![code14](https://github.com/user-attachments/assets/1a43bae4-35e0-4764-bc01-4a4c62e69b2d)
+
+
+Now, if we try to run the below command
+
+      ./vsdsynth openMSP430_design_details.csv
+We can see the following output
+
