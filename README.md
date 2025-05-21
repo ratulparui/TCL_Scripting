@@ -194,5 +194,10 @@ Now, we can build the logicg as below,
 So, we have replaced _parui by _vsd using string map command.
 <a name="sub-subsection-215"></a>
 #### TCL_D2_SK1 L5 - Auto creation of variables complete
+Now, let's procced with the code
+
+![code1](https://github.com/user-attachments/assets/b66ad1b4-b056-4c36-ab3f-76f84757bd71)
+
+
 <a name="sub-subsection-216"></a>
 #### TCL_D2_SK1 L6 - Variable Creation DEMO using TCL
