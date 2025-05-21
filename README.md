@@ -222,3 +222,7 @@ Now, if we try to run the below command
       ./vsdsynth openMSP430_design_details.csv
 We can see the following output
 
+![opg1](https://github.com/user-attachments/assets/d9fd04db-e8e3-4de1-9527-6a53e92a7920)
+
+we have our desired output for the given input.csv file
+
