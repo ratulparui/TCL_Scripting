@@ -196,6 +196,10 @@ So, we have replaced _parui by _vsd using string map command.
 #### TCL_D2_SK1 L5 - Auto creation of variables complete
 Now, let's procced with the code
 
+![code11](https://github.com/user-attachments/assets/3365d611-ae78-4c52-9ba0-23d464d76f76)
+
+Now, we can see for i=0,1,2,3 respectively
+
 ![code12](https://github.com/user-attachments/assets/28d99ee8-e5d7-46ec-8b91-38341917f061)
 
 Now, let us analyze the below command
