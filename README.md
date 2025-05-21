@@ -179,6 +179,10 @@ Now, we can see the algorithm below
 
 ![algo1](https://github.com/user-attachments/assets/2ffefc53-4cfc-4d07-be05-ad8d0c264869)
 
+Now, we can build the logicg as below,
+
+                 if{$i==0}
+		 set [strig map {" " " "} $my_arr(o,i)] $my_arr(1,i) 
 
 <a name="sub-subsection-215"></a>
 #### TCL_D2_SK1 L5 - Auto creation of variables complete
