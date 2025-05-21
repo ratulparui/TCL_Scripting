@@ -237,11 +237,14 @@ Now we have to chek all the directory paths exist or not.
 Now to check whether the output directory exists or not, we can give the following set of commands.
 ![ex1](https://github.com/user-attachments/assets/ae8f8c6f-c3b6-4a01-9634-195436584878)
 
-The 
+The command
 
           file isdirectory
 will return boolean value 0/1
 Now, the above set of commands create an output directory, if the output directory is not present.
+Similarly, we can check for the netlist directory
+
+![ex2](https://github.com/user-attachments/assets/6d0438af-c43c-44c7-998b-ed9a46d65326)
 
 <a name="sub-subsection-222"></a>
 #### TCL_D2_SK2 L2 - Convert constraints.csv file to a matrix object
