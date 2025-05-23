@@ -258,8 +258,6 @@ Now, let us suppose, we have removed the output directory.
 Then the above script will show messgae: creating output directory.
 ![msg1](https://github.com/user-attachments/assets/d3cb64f2-400e-40c5-8c38-80607a1cbf56)
 
-<a name="sub-subsection-223"></a>
-#### TCL_D2_SK2 L3 - Compute row number using complex matrix processingn
 
 
 Below is the input constraints file in .csv format
@@ -270,6 +268,9 @@ Now, we will be converting this .csv file to a matrix using the below commands
 ![matr1](https://github.com/user-attachments/assets/c56d17fd-5607-4c8e-9d04-742e52a1d5d7)
 
 We are trying to assign the opened .csv file in a variable chan. Now we are converting the constaints file into a matrix.
+
+<a name="sub-subsection-223"></a>
+#### TCL_D2_SK2 L3 - Compute row number using complex matrix processingn
 
 <a name="sub-subsection-224"></a>
 #### TCL_D2_SK2 L4 - DEMO for computing row numbers
