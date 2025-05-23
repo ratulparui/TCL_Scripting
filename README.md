@@ -252,7 +252,10 @@ Similarly, for the constraints directory
 
 <a name="sub-subsection-222"></a>
 #### TCL_D2_SK2 L2 - Convert constraints.csv file to a matrix object
-Now, let us suppose, we have removed the output directory. Then the above script will show messgae: creating output directory.
+Now, let us suppose, we have removed the output directory.
+
+                       rm -rf outdir_openMSP430
+Then the above script will show messgae: creating output directory.
 ![msg1](https://github.com/user-attachments/assets/d3cb64f2-400e-40c5-8c38-80607a1cbf56)
 
 <a name="sub-subsection-223"></a>
