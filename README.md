@@ -269,6 +269,7 @@ Now, we will be converting this .csv file to a matrix using the below commands
 
 ![matr1](https://github.com/user-attachments/assets/c56d17fd-5607-4c8e-9d04-742e52a1d5d7)
 
+We are trying to assign the opened .csv file in a variable chan. Now we are converting the constaints file into a matrix.
 
 <a name="sub-subsection-224"></a>
 #### TCL_D2_SK2 L4 - DEMO for computing row numbers
