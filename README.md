@@ -271,6 +271,8 @@ We are trying to assign the opened .csv file in a variable chan. Now we are conv
 
 <a name="sub-subsection-223"></a>
 #### TCL_D2_SK2 L3 - Compute row number using complex matrix processingn
+Now, we are trying to get the number of rows and columns using the below commands
+![commd23](https://github.com/user-attachments/assets/55199e2e-153f-4333-b7c5-2fa3d6e467ad)
 
 <a name="sub-subsection-224"></a>
 #### TCL_D2_SK2 L4 - DEMO for computing row numbers
