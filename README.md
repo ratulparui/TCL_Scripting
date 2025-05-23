@@ -260,5 +260,15 @@ Then the above script will show messgae: creating output directory.
 
 <a name="sub-subsection-223"></a>
 #### TCL_D2_SK2 L3 - Compute row number using complex matrix processingn
+
+
+Below is the input constraints file in .csv format
+![contr1](https://github.com/user-attachments/assets/9e059b9d-e9c4-4446-9edd-19247e082700)
+
+Now, we will be converting this .csv file to a matrix using the below commands
+
+![matr1](https://github.com/user-attachments/assets/c56d17fd-5607-4c8e-9d04-742e52a1d5d7)
+
+
 <a name="sub-subsection-224"></a>
 #### TCL_D2_SK2 L4 - DEMO for computing row numbers
