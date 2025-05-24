@@ -370,6 +370,9 @@ Now from the .csv constraints file, we would like to convert it to a .sdc format
 Now, we would like to restrict the search space in between the selected area:
 ![snap311](https://github.com/user-attachments/assets/76a983ea-e764-447d-8fa5-6bc212f51029)
 
+Now, let us open the .sdc file written in the outdir
+![sdc1](https://github.com/user-attachments/assets/88283522-0b98-452a-81a8-4d34a4a412d2)
+
 <a name="sub-subsection-311"></a>
 #### Algorithm to identify the column number for clock latency constraints
 
