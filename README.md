@@ -377,3 +377,26 @@ Now from the .csv constraints file, we would like to convert it to a .sdc format
 #### Code to create clock constraints with clock period and duty cycle
 <a name="sub-subsection-315"></a>
 #### DEMO for creating complete clock constraints
+
+
+<a name="subsection-32"></a>
+### Sub-Task Two - From CSV to format[1] and SDC - Processing input constraints
+<a name="sub-subsection-321"></a>
+#### Introduction to the task of differentiating between bits and a bus
+<a name="sub-subsection-322"></a>
+#### File access and pattern creation steps
+<a name="sub-subsection-323"></a>
+#### Demo for grepping input ports from all verilogs and reformatting for fixed space
+<a name="sub-subsection-324"></a>
+#### Read, split, uniquify, sort, and join input ports to remove duplication
+<a name="sub-subsection-325"></a>
+#### Evaluate the length of the string and Demo of bits/bussed differentiation script
+<a name="sub-subsection-326"></a>
+#### Demo for input constraints generation and bits/bussed differentiation
+
+
+
+
+
+
+
