@@ -1,4 +1,4 @@
-# Tool Command Language (TCL) Workshop
+![image](https://github.com/user-attachments/assets/d00b49cb-c33b-4b12-ac90-0b0649a64492)# Tool Command Language (TCL) Workshop
 # Sponsored by VSD
 ______________________________________________
 # Contents (Day 1 - Day 5)
@@ -382,7 +382,7 @@ Let us, check the following code:
     puts "\nInfo-SDC: Working on clock constraints....."
     while { $i < $end_of_ports } {
 We have assigned the filename .sdc in write mode to a variable as sdc_file.
-Since, previously, we have found that $clock_start value is 0, i is set to 1. And, $input_ports_start is 4, end_of_ports is set to 3. We are setting a new variaable as clock_early_rise_slew_start, and it's value is assigned to 3. Which exactly matches the column number of early_rise_delay in .csv file.
+Since, previously, we have found that $clock_start value is 0, i is set to 1. And, $input_ports_start is 4, end_of_ports is set to 3. We are setting a new variaable as clock_early_rise_delay_start, and it's value is assigned to 3. Which exactly matches the column number of early_rise_delay in .csv file.
 Now, we would like to write data in sdc_file variable.
 <a name="sub-subsection-312"></a>
 #### Start writing clock latency constraints in the SDC file
@@ -393,13 +393,22 @@ Inside the while loop we would like to print the data required as expected. for 
     set end_of_ports [expr {$input_ports_start-1}]
     puts "\nInfo-SDC: Working on clock constraints....."
     while { $i < $end_of_ports } {
-    puts -nonewline $sdc_file "\nset_clock_latency -source -early -rise [constraints get cell $clock_early_rise_slew_start $i] \[get_clocks [constraints get cell 0 $i]\]"
+    puts -nonewline $sdc_file "\nset_clock_latency -source -early -rise [constraints get cell $clock_early_rise_delay_start $i] \[get_clocks [constraints get cell 0 $i]\]"
     set i [expr {$i+1}]
-Now, the above puts command prints the desired data in the sdc_file variable, finally appends to .sdc file. set_clock_latency -source -early -rise gets printed as it is. Then let us discuss [constraints get cell $clock_early_rise_slew_start $i] part, where constraints is a matrix name, get cell is a package command and $clock_early_rise_slew_start, $i are column and row, which are set to be 3 and 0. So, the contents of cell number [3,0] gets printed due to the square braces, which does substituion. Whenever there is a square bracet, it's get trated as a tcl command, so to print it as it is, we need backslash(\).
+Now, the above puts command prints the desired data in the sdc_file variable, finally appends to .sdc file. set_clock_latency -source -early -rise gets printed as it is. Then let us discuss [constraints get cell $clock_early_rise_slew_start $i] part, where constraints is a matrix name, get cell is a package command and $clock_early_rise_slew_start, $i are column and row, which are set to be 3 and 0. So, the contents of cell number [3,0] gets printed due to the square braces, which does substituion. Whenever there is a square bracet, it's get trated as a tcl command, so to print it as it is, we need backslash( \ ).
+Now, i is the value of row, we need to increase it to 2, to go to next row.
 <a name="sub-subsection-313"></a>
 #### Complete clock latency constraints and clock slew constraints in the SDC file
+Now, we can modify the above code snippet and add new lines to print in the file like below
+
+![smp312](https://github.com/user-attachments/assets/58b91be7-6ede-4def-acab-3f84ef258ea4)
+
+
+
 <a name="sub-subsection-314"></a>
 #### Code to create clock constraints with clock period and duty cycle
+
+
 <a name="sub-subsection-315"></a>
 #### DEMO for creating complete clock constraints
 
@@ -408,8 +417,12 @@ Now, the above puts command prints the desired data in the sdc_file variable, fi
 ### Sub-Task Two - From CSV to format[1] and SDC - Processing input constraints
 <a name="sub-subsection-321"></a>
 #### Introduction to the task of differentiating between bits and a bus
+
+
 <a name="sub-subsection-322"></a>
 #### File access and pattern creation steps
+
+
 <a name="sub-subsection-323"></a>
 #### Demo for grepping input ports from all verilogs and reformatting for fixed space
 <a name="sub-subsection-324"></a>
