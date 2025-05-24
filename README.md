@@ -374,7 +374,7 @@ Now, we would like to restrict the search space in between the selected area:
 
 
 
-Let us, chechk the following code:
+Let us, check the following code:
   
     set sdc_file [open $OutputDirectory/$DesignName.sdc "w"]
     set i [expr {$clock_start+1}]
@@ -382,10 +382,20 @@ Let us, chechk the following code:
     puts "\nInfo-SDC: Working on clock constraints....."
     while { $i < $end_of_ports } {
 We have assigned the filename .sdc in write mode to a variable as sdc_file.
-Since, previously, we have found that $clock_start value is 0, i is set to 1. And, $input_ports_start is 4, end_of_ports is set to 3. Which exactly matches the column number of early_rise_delay in .csv file.
+Since, previously, we have found that $clock_start value is 0, i is set to 1. And, $input_ports_start is 4, end_of_ports is set to 3. We are setting a new variaable as clock_early_rise_slew_start, and it's value is assigned to 3. Which exactly matches the column number of early_rise_delay in .csv file.
 Now, we would like to write data in sdc_file variable.
 <a name="sub-subsection-312"></a>
 #### Start writing clock latency constraints in the SDC file
+Inside the while loop we would like to print the data required as expected. for that we use, below set of codes
+   
+    set sdc_file [open $OutputDirectory/$DesignName.sdc "w"]
+    set i [expr {$clock_start+1}]
+    set end_of_ports [expr {$input_ports_start-1}]
+    puts "\nInfo-SDC: Working on clock constraints....."
+    while { $i < $end_of_ports } {
+    	puts -nonewline $sdc_file "\nset_clock_latency -source -early -rise [constraints get cell $clock_early_rise_slew_start $i] \[get_clocks [constraints get cell 0 $i]\]"
+    set i [expr {$i+1}]
+}
 <a name="sub-subsection-313"></a>
 #### Complete clock latency constraints and clock slew constraints in the SDC file
 <a name="sub-subsection-314"></a>
