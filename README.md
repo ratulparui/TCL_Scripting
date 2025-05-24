@@ -404,7 +404,7 @@ Now, we can modify the above code snippet and add new lines to print in the file
 
 ![smp312](https://github.com/user-attachments/assets/58b91be7-6ede-4def-acab-3f84ef258ea4)
 
-Now, we have added lines for example: set_clock_latency -source -early -fall, for that we need to change to column $clock_early_fall_delay_start, which is set to 
+Now, we have added lines for example: set_clock_latency -source -early -fall, for that we need to change to column $clock_early_fall_delay_start, which is set to 4. Similarly $clock_late_rise_slew_start is set to 5.
 
 <a name="sub-subsection-314"></a>
 #### Code to create clock constraints with clock period and duty cycle
