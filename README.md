@@ -429,7 +429,10 @@ In the above part of the code we have calculated the waveform part from the duty
 
 <a name="sub-subsection-315"></a>
 #### DEMO for creating complete clock constraints
-
+Now, let us try to execute the above part of the code and try to print the present working clock
+![cd344](https://github.com/user-attachments/assets/0f7f3a6e-51f5-43e6-9e0d-dc80ec593c43)
+So, after running the command we have the following output
+![op3444](https://github.com/user-attachments/assets/15018822-a99b-4e51-a7b6-5a4c6e72ea8f)
 
 <a name="subsection-32"></a>
 ### Sub-Task Two - From CSV to format[1] and SDC - Processing input constraints
