@@ -368,7 +368,8 @@ Now from the .csv constraints file, we would like to convert it to a .sdc format
 <a name="subsection-31"></a>
 ### Sub-Task Two - From CSV to format[1] and SDC - Processing clock constraints
 Now, we would like to restrict the search space in between the selected area:
-![snap311](https://github.com/user-attachments/assets/5e29c69f-fd1e-446a-ab81-a073c27f684b)
+![snap311](https://github.com/user-attachments/assets/76a983ea-e764-447d-8fa5-6bc212f51029)
+
 <a name="sub-subsection-311"></a>
 #### Algorithm to identify the column number for clock latency constraints
 
@@ -403,7 +404,7 @@ Now, we can modify the above code snippet and add new lines to print in the file
 
 ![smp312](https://github.com/user-attachments/assets/58b91be7-6ede-4def-acab-3f84ef258ea4)
 
-
+Now, we have added lines for example: set_clock_latency -source -early -fall, for that we need to change to column $clock_early_fall_delay_start, which is set to 
 
 <a name="sub-subsection-314"></a>
 #### Code to create clock constraints with clock period and duty cycle
