@@ -29,7 +29,38 @@ ______________________________________________
     - [TCL_D2_SK2 L4 - DEMO for computing row numbers](#sub-subsection-224)
   
    
-
+- [Day 3: Processing Clock and Input Constraints](#section-3)
+  - [Sub-Task Two - From CSV to format\[1\] and SDC - Processing clock constraints](#subsection-31)
+    - [Algorithm to identify the column number for clock latency constraints](#sub-subsection-311)
+    - [Start writing clock latency constraints in the SDC file](#sub-subsection-312)
+    - [Complete clock latency constraints and clock slew constraints in the SDC file](#sub-subsection-313)
+    - [Code to create clock constraints with clock period and duty cycle](#sub-subsection-314)
+    - [DEMO for creating complete clock constraints](#sub-subsection-315)
+  - [Sub-Task Two - From CSV to format[1] and SDC - Processing input constraints](#subsection-32)
+    - [Introduction to the task of differentiating between bits and a bus](#sub-subsection-321)
+    - [Algorithm to categorize input ports as bits and bussed](#sub-subsection-322)
+    - [File access and pattern creation steps](#sub-subsection-323)
+    - [Regular expression and regular substitute to get fixed space strings](#sub-subsection-324)
+    - [Demo for grepping input ports from all verilogs and reformatting for fixed space](#sub-subsection-325)
+    - [Read, split, uniquify, sort, and join input ports to remove duplication](#sub-subsection-326)
+    - [Evaluate the length of the string and Demo of bits/bussed differentiation script](#sub-subsection-327)
+    - [Demo for input constraints generation and bits/bussed differentiation](#sub-subsection-328)
+   
+- [Day 4: Complete Scripting and Yosys Synthesis Introduction](#section-4)
+  - [Full script for download and Conclusion](#subsection-41)
+    - [Constraints generation logic for the output port and Conclusion!!](#sub-subsection-411)
+  - [Introduction to Yosys synthesis tool usage](#subsection-42)
+    - [Example of a memory module RTL description](#sub-subsection-421)
+    - [Memory functionality and Synthesis using Yosys](#sub-subsection-422)
+    - [Components and Gate level netlist description of Synthesized memory](#sub-subsection-423)
+    - [Memory Write operation discussed in detail](#sub-subsection-424)
+    - [-Memory Read operation and TCL scripting agenda](#sub-subsection-425)
+  - [Hierarchy check and error handling script creation for Yosys](#subsection-43)
+    - [Script to do a hierarchy check](#sub-subsection-431)
+    - [Demo for hierarchy check script generation](#sub-subsection-432)
+    - [Demo for error handling concept in hierarchy check](#sub-subsection-433)
+    - [Error handling script for hierarchy check](#sub-subsection-434)
+    - [Demo for error handling script](#sub-subsection-435)
 
 _______________________________________________________________________
 <a name="section-1"></a>
@@ -271,7 +302,7 @@ We are trying to assign the opened .csv file in a variable chan. Now we are conv
 
 <a name="sub-subsection-223"></a>
 #### TCL_D2_SK2 L3 - Compute row number using complex matrix processingn
-Now, we are trying to get the number of rows and columns using the below commands
+Now, we are trying to get the number of rows as 57 and columns as 11 using the below commands
 
 ![commnds23](https://github.com/user-attachments/assets/d3da0568-1ee9-4dbf-a404-0de6e2d13ed4)
 
