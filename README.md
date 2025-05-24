@@ -393,9 +393,9 @@ Inside the while loop we would like to print the data required as expected. for 
     set end_of_ports [expr {$input_ports_start-1}]
     puts "\nInfo-SDC: Working on clock constraints....."
     while { $i < $end_of_ports } {
-    	puts -nonewline $sdc_file "\nset_clock_latency -source -early -rise [constraints get cell $clock_early_rise_slew_start $i] \[get_clocks [constraints get cell 0 $i]\]"
+    puts -nonewline $sdc_file "\nset_clock_latency -source -early -rise [constraints get cell $clock_early_rise_slew_start $i] \[get_clocks [constraints get cell 0 $i]\]"
     set i [expr {$i+1}]
-}
+Now, the above puts command prints the desired data in the sdc_file variable, finally appends to .sdc file. set_clock_latency -source -early -rise gets printed as it is. Then let us discuss [constraints get cell $clock_early_rise_slew_start $i] part, where constraints is a matrix name, get cell is a package command and $clock_early_rise_slew_start, $i are column and row, which are set to be 3 and 0.
 <a name="sub-subsection-313"></a>
 #### Complete clock latency constraints and clock slew constraints in the SDC file
 <a name="sub-subsection-314"></a>
