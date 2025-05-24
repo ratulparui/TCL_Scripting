@@ -362,3 +362,18 @@ Now from the .csv constraints file, we would like to convert it to a .sdc format
 
 ![csv123](https://github.com/user-attachments/assets/ed9bcf37-33f6-4a6b-9ced-b03fdf2f16ee)
 
+
+<a name="section-3"></a>
+## Day 3: Processing Clock and Input Constraints
+<a name="subsection-31"></a>
+### Sub-Task Two - From CSV to format[1] and SDC - Processing clock constraints
+<a name="sub-subsection-311"></a>
+#### Algorithm to identify the column number for clock latency constraints
+<a name="sub-subsection-312"></a>
+#### Start writing clock latency constraints in the SDC file
+<a name="sub-subsection-313"></a>
+#### Complete clock latency constraints and clock slew constraints in the SDC file
+<a name="sub-subsection-314"></a>
+#### Code to create clock constraints with clock period and duty cycle
+<a name="sub-subsection-315"></a>
+#### DEMO for creating complete clock constraints
