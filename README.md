@@ -335,16 +335,20 @@ We are trying to assign the opened .csv file in a variable chan. Now we are conv
 
 <a name="sub-subsection-223"></a>
 #### TCL_D2_SK2 L3 - Compute row number using complex matrix processingn
-Now, we are trying to get the number of rows as 57 and columns as 11 using the below commands
+Now, we are trying to get the number of rows and columns using the below commands
 
 ![commnds23](https://github.com/user-attachments/assets/d3da0568-1ee9-4dbf-a404-0de6e2d13ed4)
 
 Now, if we try to run
 
      ./vsdsynth openMSP430_design_details.csv
-We have the following  output as row and column numbers.
+We have the following  output as row as 57 and column as 11 numbers.
 
 ![rowsacols](https://github.com/user-attachments/assets/1567d9b3-2f75-43ec-b33a-f3a859d92228)
+
+Let us modify the code as below
+
+![code234](https://github.com/user-attachments/assets/4c58ab12-36a1-430d-844f-015aa24f8900)
 
 <a name="sub-subsection-224"></a>
 #### TCL_D2_SK2 L4 - DEMO for computing row numbers
