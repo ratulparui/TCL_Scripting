@@ -346,6 +346,10 @@ We have the following  output as row as 57 and column as 11 numbers.
 
 ![rowsacols](https://github.com/user-attachments/assets/1567d9b3-2f75-43ec-b33a-f3a859d92228)
 
+
+
+<a name="sub-subsection-224"></a>
+#### TCL_D2_SK2 L4 - DEMO for computing row numbers
 Let us modify the code as below
 
 ![code234](https://github.com/user-attachments/assets/4c58ab12-36a1-430d-844f-015aa24f8900)
@@ -358,6 +362,3 @@ Now from the .csv constraints file, we would like to convert it to a .sdc format
 
 ![csv123](https://github.com/user-attachments/assets/ed9bcf37-33f6-4a6b-9ced-b03fdf2f16ee)
 
-
-<a name="sub-subsection-224"></a>
-#### TCL_D2_SK2 L4 - DEMO for computing row numbers
