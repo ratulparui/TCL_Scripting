@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/d00b49cb-c33b-4b12-ac90-0b0649a64492)# Tool Command Language (TCL) Workshop
+# Tool Command Language (TCL) Workshop
 # Sponsored by VSD
 ______________________________________________
 # Contents (Day 1 - Day 5)
