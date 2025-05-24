@@ -350,5 +350,10 @@ Let us modify the code as below
 
 ![code234](https://github.com/user-attachments/assets/4c58ab12-36a1-430d-844f-015aa24f8900)
 
+Now, we are getting the following output
+
+![op234](https://github.com/user-attachments/assets/c44ac6b5-f01d-4216-b2d4-67155752941a)
+
+
 <a name="sub-subsection-224"></a>
 #### TCL_D2_SK2 L4 - DEMO for computing row numbers
