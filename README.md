@@ -409,6 +409,23 @@ Now, we have added lines for example: set_clock_latency -source -early -fall, fo
 <a name="sub-subsection-314"></a>
 #### Code to create clock constraints with clock period and duty cycle
 
+Now, let us define the time period and duty cycle of a clock. The standard clock definition is shown below
+
+    create_clock -name dco_clk -period 1500 -waveform {0 750} [get_ports dco_clk]
+Now, in the input constraints .csv file the duty cycle is mentioned as 50% for column=2, row =1.  
+
+    puts -nonewline $sdc_file "\ncreate_clock -name [constraints get cell 0 $i] -period [constraints get cell 1 $i] -waveform \{0 [expr {[constraints get cell 1 $i]*[constraints get cell 2 $i]/100}]\} \[get_ports [constraints get cell 0 $i]\]"
+
+We need to access the row = 1 and col = 1, where the frequency value is given. 
+In the above part of the code we have calculated the waveform part from the duty cycle using the below command
+
+    [expr {[constraints get cell 1 $i]*[constraints get cell 2 $i]/100}]
+               1500                   *        50                 /100 = 750
+            
+![code3451](https://github.com/user-attachments/assets/7ecaed83-7c38-4326-91ad-9b1b738e3b48)
+
+   
+
 
 <a name="sub-subsection-315"></a>
 #### DEMO for creating complete clock constraints
@@ -418,8 +435,6 @@ Now, we have added lines for example: set_clock_latency -source -early -fall, fo
 ### Sub-Task Two - From CSV to format[1] and SDC - Processing input constraints
 <a name="sub-subsection-321"></a>
 #### Introduction to the task of differentiating between bits and a bus
-
-
 <a name="sub-subsection-322"></a>
 #### File access and pattern creation steps
 
