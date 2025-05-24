@@ -367,19 +367,24 @@ Now from the .csv constraints file, we would like to convert it to a .sdc format
 ## Day 3: Processing Clock and Input Constraints
 <a name="subsection-31"></a>
 ### Sub-Task Two - From CSV to format[1] and SDC - Processing clock constraints
-<a name="sub-subsection-311"></a>
-#### Algorithm to identify the column number for clock latency constraints
-<a name="sub-subsection-312"></a>
 Now, we would like to restrict the search space in between the selected area:
 ![snap311](https://github.com/user-attachments/assets/5e29c69f-fd1e-446a-ab81-a073c27f684b)
+<a name="sub-subsection-311"></a>
+#### Algorithm to identify the column number for clock latency constraints
 
-Let us, chech the following code:
+
+
+Let us, chechk the following code:
   
     set sdc_file [open $OutputDirectory/$DesignName.sdc "w"]
     set i [expr {$clock_start+1}]
     set end_of_ports [expr {$input_ports_start-1}]
     puts "\nInfo-SDC: Working on clock constraints....."
     while { $i < $end_of_ports } {
+We have assigned the filename .sdc in write mode to a variable as sdc_file.
+Since, previously, we have found that $clock_start value is 0, i is set to 1. And, $input_ports_start is 4, end_of_ports is set to 3. Which exactly matches the column number of early_rise_delay in .csv file.
+Now, we would like to write data in sdc_file variable.
+<a name="sub-subsection-312"></a>
 #### Start writing clock latency constraints in the SDC file
 <a name="sub-subsection-313"></a>
 #### Complete clock latency constraints and clock slew constraints in the SDC file
