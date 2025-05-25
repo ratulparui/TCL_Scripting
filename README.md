@@ -490,7 +490,21 @@ Now, from the $fd we need to read each and every line using gets command. Where 
  
 <a name="sub-subsection-324"></a>
 #### Regular expression and regular substitute to get fixed space strings
+Now, let us try to explain the below comand
 
+    set patternj1 " [constraints get cell 0 $i]
+    regexp -all -- $patternl $line
+  regexp will try to find the pattern in all the respective files. So, we have put this inside a while loop, to iterate it few number of times. Now, we are trying to set a pattern2 using the below command
+
+    set pattern2 [lindex [split $line ";"] 0]
+Now, there could be multiple spaces in pattern2, so we are trying to split pattern2 based on spaces.
+
+    [lindex [split $pattern2 "\S+"] 0]
+For our current example, the above part of the code retuens input
+Now, let us put it inside a if statement, so we are trying to match input with input
+
+    if {[regexp -all {input} [lindex [split $pattern2 "\S+"] 0]]}
+Similarly, we can get 0,1,2 index elements using lindex.
 <a name="sub-subsection-325"></a>
 #### Demo for grepping input ports from all verilogs and reformatting for fixed space
 
