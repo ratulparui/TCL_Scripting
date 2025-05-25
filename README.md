@@ -504,7 +504,10 @@ For our current example, the above part of the code retuens input
 Now, let us put it inside a if statement, so we are trying to match input with input
 
     if {[regexp -all {input} [lindex [split $pattern2 "\S+"] 0]]}
-Similarly, we can get 0,1,2 index elements using lindex.
+Similarly, we can get 0,1,2 index elements using lindex. 
+Now, let us define a new pattern s1, given below
+![pattrn324](https://github.com/user-attachments/assets/1291cc81-d1f8-4e3b-9428-ac54a4cb90e3)
+
 <a name="sub-subsection-325"></a>
 #### Demo for grepping input ports from all verilogs and reformatting for fixed space
 
