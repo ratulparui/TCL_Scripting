@@ -437,10 +437,17 @@ Now, let us try to execute the above part of the code and try to print the prese
 So, after running the command we have the following output
 ![op3444](https://github.com/user-attachments/assets/15018822-a99b-4e51-a7b6-5a4c6e72ea8f)
 
+Now, if we open te .sdc file, it will show the contents written inside it.
+
+![sdc23](https://github.com/user-attachments/assets/1f8f1169-a221-4217-a9db-6114c7e80efe)
+
+
 <a name="subsection-32"></a>
 ### Sub-Task Two - From CSV to format[1] and SDC - Processing input constraints
 <a name="sub-subsection-321"></a>
 #### Introduction to the task of differentiating between bits and a bus
+
+
 <a name="sub-subsection-322"></a>
 #### File access and pattern creation steps
 
