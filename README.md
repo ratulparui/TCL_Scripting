@@ -446,6 +446,9 @@ Now, if we open te .sdc file, it will show the contents written inside it.
 ### Sub-Task Two - From CSV to format[1] and SDC - Processing input constraints
 <a name="sub-subsection-321"></a>
 #### Introduction to the task of differentiating between bits and a bus
+Now to get the bus names we need to use wildcards.
+Now, let us limit the search space to the highlited area.
+![csv344](https://github.com/user-attachments/assets/de866c6e-ce68-4a29-b64f-60b3023a6a42)
 
 
 <a name="sub-subsection-322"></a>
