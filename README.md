@@ -460,8 +460,10 @@ Now, we need to grep the cpu_en in all the verilog files, using the following co
 Which will give the following output
 ![op2334](https://github.com/user-attachments/assets/2b946994-4b6c-46b9-9251-392000cd2ec9)
 
+<a name="sub-subsection-323"></a>
+#### Algorithm to categorize input ports as bits and bussed
 
-<a name="sub-subsection-322"></a>
+<a name="sub-subsection-323"></a>
 #### File access and pattern creation steps
 Now, to get all the .v contents of the directory, we need to use the glob command.
 The demo command is shown below
@@ -479,14 +481,25 @@ Using the below command, we are trying to open each and every verilog file and a
     set fd [open $f]
 
 Now, from the $fd we need to read each and every line using gets command. Where -1, stands for the end of line. Now, we would like to set pattents based on the cell names.
-<a name="sub-subsection-323"></a>
-#### Demo for grepping input ports from all verilogs and reformatting for fixed space
+
 <a name="sub-subsection-324"></a>
-#### Read, split, uniquify, sort, and join input ports to remove duplication
+#### Demo for grepping input ports from all verilogs and reformatting for fixed space
+
+<a name="sub-subsection-324"></a>
+#### Regular expression and regular substitute to get fixed space strings
+
 <a name="sub-subsection-325"></a>
-#### Evaluate the length of the string and Demo of bits/bussed differentiation script
+#### Demo for grepping input ports from all verilogs and reformatting for fixed space
+
 <a name="sub-subsection-326"></a>
+#### Read, split, uniquify, sort, and join input ports to remove duplication
+
+<a name="sub-subsection-327"></a>
+#### Evaluate the length of the string and Demo of bits/bussed differentiation script
+<a name="sub-subsection-328"></a>
 #### Demo for input constraints generation and bits/bussed differentiation
+
+
 
 
 
