@@ -508,8 +508,19 @@ Similarly, we can get 0,1,2 index elements using lindex.
 Now, let us define a new pattern s1, given below
 ![pattrn324](https://github.com/user-attachments/assets/1291cc81-d1f8-4e3b-9428-ac54a4cb90e3)
 
+Now, let us try to substitute multiples spaces by a single space, using the below command
+
+    regsub -all {\s+} $s1 ""
+Where {\s+} stands for multiple spaces n regsub. Now, we are are writing in the tmp file. Then it closes the file $fd. 
 <a name="sub-subsection-325"></a>
 #### Demo for grepping input ports from all verilogs and reformatting for fixed space
+Now, let us print the present file, using puts command. Also we are trying to print the pattern found.
+![codiff324](https://github.com/user-attachments/assets/1ab4b38f-59a3-4274-8ac9-89f0e67db4a1)
+
+Now, if we execute the above code, we have the output as
+
+![op3454](https://github.com/user-attachments/assets/0508ee45-95f5-466b-a7bf-47bb0049b183)
+
 
 <a name="sub-subsection-326"></a>
 #### Read, split, uniquify, sort, and join input ports to remove duplication
