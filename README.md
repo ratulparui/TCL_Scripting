@@ -470,6 +470,15 @@ The demo command is shown below
 Now, we are trying to open a temp file in write mode, to do temporary work.
 
 Now, we would like to access each and every netlist file using foreach loop.
+
+![forech3444](https://github.com/user-attachments/assets/6a35dada-dc84-45cb-b12c-422add9aa0e2)
+
+
+Using the below command, we are trying to open each and every verilog file and assign them to a variable.
+
+    set fd [open $f]
+
+Now, from the $fd we need to read each and every line using gets command. Where -1, stands for the end of line. Now, we would like to set pattents based on the cell names.
 <a name="sub-subsection-323"></a>
 #### Demo for grepping input ports from all verilogs and reformatting for fixed space
 <a name="sub-subsection-324"></a>
