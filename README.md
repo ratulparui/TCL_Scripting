@@ -450,11 +450,26 @@ Now to get the bus names we need to use wildcards.
 Now, let us limit the search space to the highlited area.
 ![csv344](https://github.com/user-attachments/assets/de866c6e-ce68-4a29-b64f-60b3023a6a42)
 
+Now, we need to set some varibales to get the respective columns for early_rise_delay, early_fall_delay etc.
+We, need to check all the verilog files in the directory.
+![vdir](https://github.com/user-attachments/assets/138abcbe-1b71-4edf-b6a2-e2ce59a18ad4)
+
+Now, we need to grep the cpu_en in all the verilog files, using the following command
+
+    grep cpu_en /home/vsduser/vsdsynth/verilog/*.v
+Which will give the following output
+![op2334](https://github.com/user-attachments/assets/2b946994-4b6c-46b9-9251-392000cd2ec9)
+
 
 <a name="sub-subsection-322"></a>
 #### File access and pattern creation steps
+Now, to get all the .v contents of the directory, we need to use the glob command.
+The demo command is shown below
 
+    glob -dir $NetlistDirectory *.v
+Now, we are trying to open a temp file in write mode, to do temporary work.
 
+Now, we would like to access each and every netlist file using foreach loop.
 <a name="sub-subsection-323"></a>
 #### Demo for grepping input ports from all verilogs and reformatting for fixed space
 <a name="sub-subsection-324"></a>
