@@ -484,7 +484,10 @@ Now, from the $fd we need to read each and every line using gets command. Where 
 
 <a name="sub-subsection-324"></a>
 #### Demo for grepping input ports from all verilogs and reformatting for fixed space
+ We are setting a pattern based on the delimiter ;
+![scrpyt34](https://github.com/user-attachments/assets/f2473525-f2a6-413d-b237-e016e6b478d6)
 
+ 
 <a name="sub-subsection-324"></a>
 #### Regular expression and regular substitute to get fixed space strings
 
